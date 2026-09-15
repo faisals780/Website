@@ -7,10 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -58,201 +59,357 @@
     </header>
 
     <!-- Aside Section -->
+    <div class="wrapper">
+      <aside class="sidebar">
+        <nav class="sidebar_topics" aria-label="Main Topics">
+          <h2>Main Topics</h2>
+          <ul>
+            <li>
+              <a class="active" href="#">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,2 2,20 7,20 7,35 17,35 17,25 25,25 25,35 35,35 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linejoin="round"/>
+                  </svg>Introduction</a>
+            </li>
+            <li>
+              <a href="#">
+                <svg 
+                viewBox="0 0 50 50" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <g stroke="#abdafc" stroke-width="2">
+                    <line x1="16" y1="0" x2="16" y2="50"></line>
+                    <line x1="22" y1="2" x2="22" y2="48"></line>
+                    <line x1="28" y1="2" x2="28" y2="48"></line>
+                    <line x1="34" y1="0" x2="34" y2="50"></line>
 
-    <aside class="sidebar">
-      <nav class="sidebar_topics" aria-label="Main Topics">
-        <h2>Main Topics</h2>
-        <ul>
-          <li>
-            <a class="active" href="#">
-              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="16" x2="50" y2="16"></line>
+                    <line x1="2" y1="22" x2="48" y2="22"></line>
+                    <line x1="2" y1="28" x2="48" y2="28"></line>
+                    <line x1="0" y1="34" x2="50" y2="34"></line>
+                  </g>
+                  <rect
+                    x="6"
+                    y="6"
+                    rx="5"
+                    ry="5"
+                    width="38"
+                    height="38"
+                    fill="#abdafc"
+                    stroke="#000000"
+                    stroke-width="0.6"
+                  ></rect>
+
+                  <rect
+                    x="11"
+                    y="11"
+                    rx="4"
+                    ry="4"
+                    width="28"
+                    height="28"
+                    fill="#0c273f"
+                  ></rect>
+
+                  <rect
+                    x="14"
+                    y="14"
+                    rx="4"
+                    ry="4"
+                    width="22"
+                    height="22"
+                    fill="#abdafc"
+                  ></rect>
+
+                  <g fill="#000000">
+                    <circle cx="17" cy="17" r="1"></circle>
+                    <circle cx="33" cy="17" r="1"></circle>
+                    <circle cx="33" cy="33" r="1"></circle>
+                    <circle cx="17" cy="33" r="1"></circle>
+                  </g>
+                </svg>Microcontrollers & Boards</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                </svg>GPIO</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                </svg>PWM</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                  </svg>Communication Protocols</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                    </svg>Sensors & Actuators</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 50 50" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <circle
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="3"
+                  />
+                  <polyline
+                    points="25,12 25,25 33,35.5"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  /></svg>Interrupts & Timers</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"
+                  />
+                </svg>Memory & Storage</a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                    </svg>RTOS</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"
+                  />
+                </svg>Embedded C / C++</a>
+            </li>
+            <li>
+              <a href="#">
+                <svg viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                    </svg>Projects</a>
+            </li>
+            <li>
+              <a href="#">
+                <svg 
+                viewBox="0 0 40 40" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <polygon
+                    points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
+                    fill="#ffffff"
+                    stroke="none"/>
+                    </svg>FAQs</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Hero Section -->
+      <main class="main_container">
+        <section class="hero">
+          <h1>Embedded Systems</h1>
+          <q>Small devices. Big impact.</q>
+          <p>
+            An embedded system is a dedicated computer system designed to
+            perform specific tasks, often within a larger device or system.
+          </p>
+          <button type="button" id="start-learning">
+            Start Learning<span>&#x27F6;</span>
+          </button>
+        </section>
+
+        <!-- Card Section -->
+        <section class="card_container">
+          <div class="cards_title">
+            <span>icon</span>
+            <div class="title_heading">
+              <h2>Core Topics</h2>
+              <p>Explore the key concepts one by one</p>
+            </div>
+          </div>
+
+          <!-- Cards  -->
+
+          <div class="cards">
+            <div class="card_child" style="background-color: #ebf5fe">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #e8fbf1">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #f0f0fe">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #fdf5e5">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #feecef">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #e2fbfe">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #f2effe">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #e6f9f0">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+            <div class="card_child" style="background-color: #feeee2">
+              <span>icon</span>
+              <h3>Microcontrollers & Boards</h3>
+              <p>
+                Learn about popular MCUs like arduino, STM32, ESP32 and their
+                architecture.
+              </p>
+              <a href="#">Read More<span>&#x27F6;</span></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Feature Section  -->
+
+        <section class="feature">
+          <div class="cards_title">
+            <span>
+              <svg
+                width="55px"
+                height="55px"
+                viewBox="0 0 350 350"
+                xmlns="http://www.w3.org/2000/svg"
+                style="transform: translate(-28%, -50%)"
+              >
                 <polygon
-                  points="20,2 2,20 7,20 7,35 17,35 17,25 25,25 25,35 35,35 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="#ffffff"
-                  stroke-width="2"
+                  points="200,295 160,320 170,275 140,240 180,240
+            200,200 220,240 260,240 230,275 240,320"
+                  stroke="#006bf7"
+                  stroke-width="1"
+                  fill="#006bf7"
                   stroke-linejoin="round"
-                /></svg
-              >Introduction</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#abdafc" stroke-width="2">
-                  <line x1="16" y1="0" x2="16" y2="50"></line>
-                  <line x1="22" y1="2" x2="22" y2="48"></line>
-                  <line x1="28" y1="2" x2="28" y2="48"></line>
-                  <line x1="34" y1="0" x2="34" y2="50"></line>
-
-                  <line x1="0" y1="16" x2="50" y2="16"></line>
-                  <line x1="2" y1="22" x2="48" y2="22"></line>
-                  <line x1="2" y1="28" x2="48" y2="28"></line>
-                  <line x1="0" y1="34" x2="50" y2="34"></line>
-                </g>
-                <rect
-                  x="6"
-                  y="6"
-                  rx="5"
-                  ry="5"
-                  width="38"
-                  height="38"
-                  fill="#abdafc"
-                  stroke="#000000"
-                  stroke-width="0.6"
-                ></rect>
-
-                <rect
-                  x="11"
-                  y="11"
-                  rx="4"
-                  ry="4"
-                  width="28"
-                  height="28"
-                  fill="#0c273f"
-                ></rect>
-
-                <rect
-                  x="14"
-                  y="14"
-                  rx="4"
-                  ry="4"
-                  width="22"
-                  height="22"
-                  fill="#abdafc"
-                ></rect>
-
-                <g fill="#000000">
-                  <circle cx="17" cy="17" r="1"></circle>
-                  <circle cx="33" cy="17" r="1"></circle>
-                  <circle cx="33" cy="33" r="1"></circle>
-                  <circle cx="17" cy="33" r="1"></circle>
-                </g></svg
-              >Microcontrollers & Boards</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >GPIO</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >PWM</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >Communication Protocols</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >Sensors & Actuators</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <circle
-                  cx="25"
-                  cy="25"
-                  r="20"
-                  fill="none"
-                  stroke="#ffffff"
-                  stroke-width="3"
                 />
-                <polyline
-                  points="25,12 25,25 33,35.5"
-                  fill="none"
-                  stroke="#ffffff"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                /></svg
-              >Interrupts & Timers</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >Memory & Storage</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >RTOS</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >Embedded C / C++</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <polygon
-                  points="20,0 0,20 5,20 5,38 15,38 15,25 25,25 25,38 35,38 35,20 40,20"
-                  fill="#ffffff"
-                  stroke="none"
-                /></svg
-              >FAQs</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </aside>
+              </svg>
+            </span>
+            <div class="title_heading">
+              <h2>Feature Guide</h2>
+              <p>A quick start for beginners</p>
+            </div>
+            <div class="feature_content">
+              <img src="asset/Arduino.png" alt="Arduino Board Picture" />
+              <div class="about">
+                <h3>Getting Started with Arduino</h3>
+                <p>
+                  Learn how to set up your development envionment, write your
+                  first program and blink and LED.
+                </p>
+                <button type="button" id="feature_button">
+                  Read Full Guide <span>&#x27F6;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
